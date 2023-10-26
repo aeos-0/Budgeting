@@ -75,8 +75,7 @@ func addBill(bills *map[string]float32) {
 			fmt.Print(name)
 			fmt.Println(" has been added!")
 		}
-
-		
+	
 		
 		fmt.Println("Would you like to add another invoice? Please type 'y' or 'n.'")
 		fmt.Println("Invalid values will exit the program")
@@ -103,16 +102,7 @@ func main() {
 	
 	addBill(&bills)
 
-	//Start the main for loop
-	/*From here you have many options
-	Add more bills
-	Remove bills
-	Calculate month invoice
-	How much remaining money per month and per year
-	Change budget
-	Quit program
-	*/
-	//done := false
+
 	for {
 		fmt.Println("What would you like to do now? Here are your options: ")
 		fmt.Println("'a' - Add more invoices")
